@@ -17,12 +17,12 @@ To install Git-Fit, make sure you have [Node.js](https://nodejs.org/) installed 
    ```bash
    git clone <repository_url>
    cd git-fit
-2. Install dependencies using npm:
-  ```bash 
-  npm install 
+2. Install dependencies using npm: 
+    ```bash
+    npm install
 3. Start the Vite development server:
-  ```bash 
-  npm run dev
+    ```bash 
+    npm run dev
 
 ## Hosting
 
