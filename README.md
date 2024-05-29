@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Git-Fit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Git-Fit is an application that allows users to search for exercises or browse exercises based on specific muscle groups. Users can select a workout to view more information, including videos on how to perform the exercise and similar workouts that target the same muscle group. Features for creating custom workout routines are coming soon.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for exercises
+- Browse exercises by muscle group
+- View exercise details and instructional videos
+- Discover similar workouts targeting the same muscle group
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To install Git-Fit, make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd git-fit
+2. Install dependencies using npm:
+  ```bash 
+  npm install 
+3. Start the Vite development server:
+  ```bash 
+  npm run dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Hosting
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Git-Fit is hosted on GitHub Pages at https://edmondcshaffer.github.io/Git-Fit/. Please note that there is currently an issue with the app loading. A workaround is available: if you encounter an issue with the app loading, click on "Exercises" and then navigate back to "Home". The app should load successfully.
+
+## Technologies Used
+- Vite
+- React
+- TypeScript
+- Material-UI
+- Rapid API
+
+## Future Features
+- Ability to create custom workout routines
